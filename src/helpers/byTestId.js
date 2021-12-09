@@ -4,8 +4,8 @@ import type { Queries } from './makeQueries';
 
 const getNodeByTestId = (node, testID) => {
   return typeof testID === 'string'
-    ? testID === node.props.testID
-    : testID.test(node.props.testID);
+    ? testID === node.props['data-testid']
+    : testID.test(node.props['data-testid']);
 };
 
 const queryAllByTestId = (

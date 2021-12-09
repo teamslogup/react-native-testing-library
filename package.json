@@ -1,15 +1,15 @@
 {
-  "name": "@testing-library/react-native",
+  "name": "slogup-react-native-testing-library",
   "version": "7.2.0",
   "description": "Simple and complete React Native testing utilities that encourage good testing practices.",
   "main": "build/index.js",
   "typings": "./typings/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/callstack/react-native-testing-library.git"
+    "url": "https://github.com/teamslogup/react-native-testing-library.git"
   },
-  "homepage": "https://callstack.github.io/react-native-testing-library",
-  "author": "Michał Pierzchała <thymikee@gmail.com>",
+  "homepage": "https://github.com/teamslogup/react-native-testing-library",
+  "author": "Slogup",
   "license": "MIT",
   "private": false,
   "keywords": [
